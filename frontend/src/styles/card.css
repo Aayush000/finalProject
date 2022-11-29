@@ -1,0 +1,21 @@
+/* -------------------------- Aayush did this file ---------------------  */
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; /*tyo line ma badi vayo vaney afai tala janxa!*/
+  margin-top: 55px;
+}
+
+.card {
+  text-align: center;
+  cursor: pointer;
+  height: 200px;
+  width: 35%;
+  margin-left: 20px;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 5px blue;
+  position: relative;
+}
