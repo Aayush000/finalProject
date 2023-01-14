@@ -1,5 +1,3 @@
-//-------------------------------- Aayush did from [3 - 61] lines ------------------------------------------
-
 import express from "express";
 import cors from "cors";
 import dotenv from "dotenv";
@@ -59,8 +57,6 @@ let bestProfessorsModel = mongoose.model(
   "bestProfessors",
   bestProfessorsSchema
 );
-
-//------------------------------------------------- Subrat did from [65 - 155] lines ----------------------------
 
 // API endpoints - root endpoint
 app.get("/", (req, res) => {
@@ -152,8 +148,6 @@ app.put("/api/v1/feedbacks/:feedbackId", async (req, res) => {
     });
   }
 });
-
-// ---------------------------------- Aayush did from [158 - 249] lines -------------------------------------
 
 // API endpoints - best professors endpoint
 // get all best professors

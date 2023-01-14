@@ -1,5 +1,3 @@
-// --------------------- Subrat did this file -----------------------------------
-
 import React from "react";
 
 const Title = ({ title }) => {

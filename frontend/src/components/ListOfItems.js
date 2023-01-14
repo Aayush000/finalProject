@@ -1,5 +1,3 @@
-// ---------------------------------- Aayush did this file ---------------------
-
 import React from "react";
 
 const ListOfItems = ({ data, name }) => {

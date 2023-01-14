@@ -1,11 +1,9 @@
-/* -------------------- Subrat did this file ---------------------  */
-
 .navbar {
   padding-top: 1em;
   padding-bottom: 1em;
   padding-left: 7em;
-  background-color: aqua;
-  color: tomato;
+  background-color: #332fd0;
+  color: #fb2576;
   font-size: large;
   font-weight: bold;
 }

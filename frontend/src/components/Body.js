@@ -1,5 +1,3 @@
-// --------------------------------------- Aayush did this file -------------------------
-
 import React, { useState } from "react";
 import { useEffect } from "react";
 import ListOfItems from "./ListOfItems.js";
@@ -107,11 +105,15 @@ function Body() {
 
             {data.map((feedback) => (
               <div
-                className="card text-white bg-info my-3 text-start"
+                className="card text-white my-3 text-start"
+                style={{ backgroundColor: "#332FD0" }}
                 id={feedback._id}
               >
                 <div className="card-body">
-                  <h6 className="card-subtitle mb-2 text-muted">
+                  <h6
+                    className="card-subtitle mb-2 text-muted"
+                    // style={{ color: "#FB2576" }}
+                  >
                     {new Date(feedback.createdAt.split("R")[0]).toLocaleString(
                       "en-US"
                     )}

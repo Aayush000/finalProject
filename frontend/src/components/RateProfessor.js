@@ -1,5 +1,3 @@
-// ----------------------------------------- Subrat did this file -----------------------------------------
-
 import React, { useState } from "react";
 import { useEffect } from "react";
 import ListOfItems from "./ListOfItems.js";
@@ -116,7 +114,8 @@ function Body() {
 
             {data.map((providedRating) => (
               <div
-                className="card text-white bg-info my-3 text-start"
+                className="card text-white my-3 text-start"
+                style={{ backgroundColor: "#332FD0" }}
                 id={providedRating._id}
               >
                 <div className="card-body">
